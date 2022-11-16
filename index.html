@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <style>
+        body{
+          margin: 0px;
+          padding: 0px;
+          
+        }
+        .navbar{
+            margin-left: 105px;
+            margin-right: 105px;
+        }
+        .hero{
+            margin-top: 100px;
+        }
+        .sec{
+            background-image: linear-gradient(rgb(253, 253, 253), rgb(217, 231, 246));
+        }
+        .netb{
+            color: rgb(131, 131, 244);
+        }
+        .cards{
+          display: flex;
+          margin-left: 200px;
+          align-items: center;
+        }
+        .card3{
+          margin-left: 50px;
+        }
+        .cardsss{
+          cursor: pointer;
+          transition:transform 1s;
+        }
+        .cardsss:hover{
+          transform: scale(1.05);
+        }
+        .container3{
+          margin-left: 170px;
+          
+        }
+        .container4{
+          margin-right: 175px;
+          
+        }
+        .container5{
+          margin-left: 157px;
+          
+        }
+        .container6{
+          margin-right: 165px;
+          
+        }
+        .container7{
+          margin-left: 145px;
+          
+        }
+        .container8{
+          margin-right: 155px;
+          
+        }
+        .newHeader{
+          text-align: center;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          
+        }
+        .all12{
+          margin-left: 80px;
+        }
+        .newsec{
+          margin: 0px;
+          padding: 0px;
+          background-color: rgb(227,238,251);
+          text-align: start;
+        }
+        .footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+   
+   
+
+
+     
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <script src="https://kit.fontawesome.com/213b464b05.js" crossorigin="anonymous"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-light ">
+        <div class="container-fluid">
+            <img src="image/slack.png" alt="" width="20px">
+          <a class="navbar-brand" href="#"><b>  Netbook</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Community
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Join</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">events</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+               
+              <input class="form-control me-2 mt-50px border-0 " type="search" placeholder="Search Here" aria-label="Search" >
+              <button class="btn btn-primary w-100 rounded-2" type="submit">Log in</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<!--Hero Section-->
+
+      <section class="sec">
+        <div class="container hero">
+            <div class="row ">
+                <div class="col col-md-4">
+                    <button type="button" class="btn btn-primary bg-gradient rounded-0">Netbook Community</button>
+                    <br>
+                    <br>
+                
+                    <h1 class="mt-100"> <b> Your Solution for community !</b></h1>
+                    <br>
+                    <h5>More than 2 billion people in over countries use socibook to stay in touch with friends & family.</h5>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-primary bg-gradient btn-lg rounded-0 ">About More</button>
+
+                    <button type="button" class="btn btn-outline-primary btn-lg bg-transparent rounded-0 " >Invite Friend</button>
+                </div>
+                <div class="col col-md-8 ">
+                    <img src="image/com.png" alt="" width="100%" >
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+      </section>
+
+      <section>
+        <div class="container hero">
+            <div class="row ">
+                <div class="col col-md-6">
+                    <br>
+                    <br>
+                    <h5 class="netb">Whats Netbook ?</h5>
+                    <br>
+                
+                    <h1 class="mt-100"><B>Why join to Netbook Social Network ?</B> !</h1>
+                    <br>
+                    <h6>recent surveys have indicated that small businesses recognise the need they have to connect with consumer.</h6>
+                    <br>
+                    <br>
+                    <ul >
+                        <li><b> <h3>Group</h3> </b></li>
+                        <li><b><h3>Messages</h3>  </b></li>
+                        <li><b> <h3>Share</h3></b></li>
+                    </ul>
+                </div>
+                <div class="col col-md-6 ">
+                    <img src="image/3 pic.jpg" alt="" width="600px" >
+                </div>
+
+            </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+<!-- cards  -->
+
+      <section >
+        <div class="container ">
+          <div class="row">
+            <div class="col col-md-4">
+              <!-- shadow -->
+              <!-- card1 -->
+              <div class="shadow p-3 mb-5 bg-body rounded cardsss">
+              <div class="card border-0 " style="width: 18rem;">
+                 <div class="card-body ">
+              
+                 <h5 class="card-title"> <i class="fa-regular fa-star" ></i> <b>  4.8 Rating</b></h5>
+                 <br>
+                 <h6 class="card-subtitle mb-2 text-muted"><i class="fa-solid fa-users"></i> +836k Members</h6>
+                 <p class="card-text">More than 2 billion we people over countries use socibook we to stay in touch with friends</p>
+                 <br>
+                 <button type="button" class="btn btn-outline-primary btn-lg rounded-0 border-0" disabled>Join Our Community   <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- card2 -->
+            <div class="col col-md-4">
+              <div class="shadow p-3 mb-5 bg-body rounded cardsss">
+              <div class="card border-0" style="width: 18rem;">
+                 <div class="card-body">
+              
+                 <h5 class="card-title"> <i class="fa-solid fa-trophy"></i> 4.8 Rating</b></h5>
+                 <br>
+                 <h6 class="card-subtitle mb-2 text-muted"><i class="fa-brands fa-github"></i> Best of 2021 on Github</h6>
+                 <p class="card-text">More than 2 billion we people over countries use socibook we to stay in touch with friends</p>
+                 <br>
+                 <button type="button" class="btn btn-outline-primary btn-lg rounded-0 border-0" disabled>Go To Awards  <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <!-- card3 -->
+
+            <div class="col col-md-4">
+            
+              <div class="card3 border-0" style="width: 18rem;">
+                 <div class="card-body">
+              
+                 <h6 class="card-title"> Our Achievement</h6>
+              
+                 <h2 class="card-subtitle mb-2 text-muted">We are Connecting You The Digital Life.</h2>
+                 <p class="card-text">More than 2 billion we people over countries use socibook we to stay in touch with friends</p>
+  
+                 <button type="button" class="btn btn-primary btn-lg rounded-0 border-0 " >Join Our Community   <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+
+    
+      <div class=" newHeader">
+        <h5 style="color: rgb(20, 113, 244);">Our Community</h5>
+        <h1> <b> Community Main Feature</b> </h1>
+        <br>
+        <p>
+          The wise man therefore always holds in these matters
+          to this principle of section.
+        </p>
+      </div>
+      <br>
+      <br>
+    
+
+
+<!-- newpage -->
+<div class="all12">
+ <div class="container text-center">
+   <div class="row">
+     <div class="col container3">
+       <div class="card border=0" style="height: 20px; width: 400px;">
+         <div class="shadow p-3 mb-5 bg-body rounded cardsss">
+          <div class="card-body">
+           <img src="image/followers.png" alt="" width="60px">
+           <h5 class="card-title"> <b> Members, Friends</b></h5>
+           <p class="card-text">More than 2 billion we people over countries use socibook we to stay in touch with friends</p>
+          </div>
+         </div>
+      </div>
+    </div>
+
+    <div class="col container4">
+      <div class="card border=0" style="height: 20px; width: 400px;">
+        <div class="shadow p-3 mb-5 bg-body rounded cardsss">
+         <div class="card-body">
+          <img src="image/youth.png" alt="" width="60px">
+         <h5 class="card-title"> <b>Groups</b></h5>
+         <p class="card-text">More than 2 billion we people over countries use socibook we to stay in touch with friends</p>
+         </div>
+        </div>
+       </div>
+     </div>
+  </div>
+  
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col container5">
+      <div class="card border=0" style="height: 20px; width: 400px;">
+        <div class="shadow p-3 mb-5 bg-body rounded cardsss">
+         <div class="card-body">
+          <img src="image/google-forms.png" alt="" width="60px">
+         <h5 class="card-title"> <b>Forum</b></h5>
+         <p class="card-text">More than 2 billion we people over countries use socibook we to stay in touch with friends</p>
+         
+         
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col container6">
+      <div class="card border=0" style="height: 20px; width: 400px;">
+        <div class="shadow p-3 mb-5 bg-body rounded cardsss">
+         <div class="card-body">
+          <img src="image/cube.png" alt="" width="60px">
+         <h5 class="card-title"> <b>Custom  Module</b></h5>
+         <p class="card-text">More than 2 billion we people over countries use socibook we to stay in touch with friends</p>
+         
+         
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col container7">
+      <div class="card border=0" style="height: 20px; width: 400px;">
+        <div class="shadow p-3 mb-5 bg-body rounded cardsss">
+         <div class="card-body">
+          <img src="image/checklist.png" alt="" width="60px">
+         <h5 class="card-title"> <b>List Builder</b></h5>
+         <p class="card-text">More than 2 billion we people over countries use socibook we to stay in touch with friends</p>
+         
+         
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col container8">
+      <div class="card border=0" style="height: 20px; width: 400px;">
+        <div class="shadow p-3 mb-5 bg-body rounded cardsss">
+         <div class="card-body">
+          <img src="image/scroll.png" alt="" width="60px">
+         <h5 class="card-title"> <b>List Scroll Efects</b></h5>
+         <p class="card-text">More than 2 billion we people over countries use socibook we to stay in touch with friends</p>
+         
+         
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+</div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- application -->
+
+<section class="newsec">
+  <div class="container">
+      <div class="row ">
+          <div class="col col-md-6 mt-5">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <h3 style="color: rgb(69, 164, 232);">Get Our Application</h3>
+              <br>
+          
+          
+              <h1 class="mt-100"> <b> You can Easily Find This App...!</b></h1>
+              <br>
+              <h5>More than 2 billion people in over countries use socibook to stay in touch with friends & family.</h5>
+              <br>
+              <br>
+              <button type="button" class="btn btn-dark btn-lg rounded-0 "><i class="fa-brands fa-apple"></i>  App Store</button>
+
+              <button type="button" class="btn btn-primary btn-lg rounded-0 " ><i class="fa-brands fa-google-play"></i>  Playstore</button>
+          </div>
+          <div class="col col-md-6 ">
+              <img src="image/log in ui.jpg" alt="" width="700px" >
+          </div>
+
+      </div>
+  </div>
+
+  
+</section>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- news -->
+
+<div class=" newHeader">
+  <h5 style="color: rgb(20, 113, 244);">Get Our Application</h5>
+  <h1> <b>Latest News</b> </h1>
+  <br>
+ 
+</div>
+<br>
+<br>
+<section >
+  <div class="container ">
+    <div class="row">
+      <div class="col col-md-4">
+        <!-- shadow -->
+        <!-- card1 -->
+        <div class="shadow p-3 mb-5 bg-body rounded cardsss">
+        <div class="card border-0 " style="width: 18rem;">
+           <div class="card-body ">
+           <img src="image/Laptop_undrey_getty.jpg" alt="" width="350px">
+           <br>
+           <br>
+           <h4 class="card-subtitle mb-2 text-muted"> It does not matter how slowly go as long</h4>
+           <br>
+           <button type="button" class="btn btn-outline-primary btn-lg rounded-0 border-0" disabled>Continue Reading    <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- card2 -->
+      <div class="col col-md-4">
+        <div class="shadow p-3 mb-5 bg-body rounded cardsss">
+        <div class="card border-0" style="width: 18rem;">
+           <div class="card-body">
+            <img src="image/kid-smile.jpg" alt="" width="350px">
+            <br>
+            <br>
+           <h4 class="card-subtitle mb-2 text-muted"> Netbook Network added new Photo</h4>
+           <br>
+          
+           <button type="button" class="btn btn-outline-primary btn-lg rounded-0 border-0" disabled>Continue Reading  <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- card3 -->
+      <div class="col col-md-4">
+        <div class="shadow p-3 mb-5 bg-body rounded cardsss">
+        <div class="card border-0" style="width: 18rem;">
+           <div class="card-body">
+            <img src="image/nav.jpg" alt="" width="350px" height="235px">
+           <br>
+           <br>
+           <h4 class="card-subtitle mb-2 text-muted">We Optimised Better Navigation</h4>
+           
+           <br>
+           <button type="button" class="btn btn-outline-primary btn-lg rounded-0 border-0" disabled>Continue Reading  <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<br>
+<br>
+<br>
+
+<div class="footer-dark">
+  <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6 col-md-2 item">
+                  <h3><b>Home</b></h3>
+                  <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Community</a></li>
+                      <li><a href="#">Events</a></li>
+                      <li><a href="#">Contact</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-6 col-md-2 item">
+                  <h3>About</h3>
+                  <ul>
+                      <li><a href="#">Company</a></li>
+                      <li><a href="#">Team</a></li>
+                      <li><a href="#">Careers</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-6 col-md-2 item">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Guides</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-2 item">
+              <h3>Community</h3>
+              <ul>
+                  <li><a href="#">NewsFeed</a></li>
+                  <li><a href="#">Profile</a></li>
+                  <li><a href="#">Friends</a></li>
+              </ul>
+          </div>
+              
+              <div class="col-md-4 item text">
+                  <h3><b>Subscribe Cirkle Newsletter</b></h3>
+                  <p>Subscribe to be the first one to know about updates.Enter your email</p>
+                  <br>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Email Adress.." aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
+                  </div>
+
+              </div>
+              <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+          </div>
+          
+          <p class="copyright">Netbook © 2018</p>
+      </div>
+  </footer>
+</div>
+
+
+
+
+
+
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
